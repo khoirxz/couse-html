@@ -1,0 +1,121 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;500;700&display=swap");
+
+*,
+html {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+  color: #313131;
+}
+
+body {
+  background-color: #fdecec;
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+}
+
+.container {
+  width: 45%;
+  margin: auto;
+}
+
+.kartu {
+  display: grid;
+  grid-template-columns: 300px 1fr;
+}
+
+.profile,
+.quote {
+  padding: 1.3rem;
+}
+
+.profile {
+  background-color: #fff;
+}
+
+.quote {
+  background-color: #ff5454;
+}
+.btn-toggle {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: #ffe871;
+}
+.img-profile {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 50%;
+  display: block;
+  margin: 10px auto;
+}
+
+.name {
+  font-weight: 500;
+  font-size: 24px;
+  text-align: center;
+}
+
+.job {
+  font-weight: 200;
+  font-size: 16px;
+  text-align: center;
+}
+
+.social {
+  display: flex;
+  align-content: center;
+  justify-content: space-evenly;
+  margin-top: 20px;
+}
+
+.gmail,
+.facebook,
+.instagram {
+  cursor: pointer;
+  width: 25px;
+  height: 25px;
+  filter: grayscale(100%);
+}
+
+.gmail:hover,
+.facebook:hover,
+.instagram:hover {
+  filter: grayscale(0%);
+}
+
+.quote > p {
+  color: #fff;
+  font-style: italic;
+  font-size: 20px;
+}
+
+.quote {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.btn {
+  width: 125px;
+  border: 3px solid #fff;
+  text-align: center;
+  text-decoration: none;
+  color: #fff;
+  background-color: #fd3a3a;
+  padding: 7px;
+  border-radius: 30px;
+  box-shadow: #00000085 0px 1px 5px;
+}
+
+.btn:hover {
+  background-color: #d61616;
+}
+
+.btn:active {
+  background-color: #e25151;
+}
