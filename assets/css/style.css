@@ -119,3 +119,43 @@ body {
 .btn:active {
   background-color: #e25151;
 }
+
+@media all and (max-width: 500px) {
+  .container {
+    width: 100%;
+    margin: 0;
+  }
+  .kartu {
+    grid-template-columns: 100%;
+    height: 100vh;
+  }
+}
+
+.body-night {
+  background-color: #696969;
+}
+
+.night {
+  background-color: #4d4d4d;
+}
+
+.h1-night,
+.p-night {
+  color: #95ffa7;
+}
+
+.social-night {
+  background-color: #247c33;
+}
+
+.btn-night {
+  background-color: #124d1c;
+}
+
+.btn-night:hover {
+  background-color: #2a7236;
+}
+
+.btn-night:active {
+  background-color: #42914f;
+}
